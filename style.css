@@ -1,23 +1,36 @@
-html{
+body{
     background: url("world.png") center no-repeat;
 
 }
 
+h1{
+    text-align: center;
+}
 #container{
-    background: lightblue;
-    border-radius: 25px;
-    width: 500px;
-    margin: auto;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    text-align: center;
     display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    
     
     
 
 }
 
-div{
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 33%;
+.cell{
+    adding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    font-family: 'Girassol', cursive;
+    color: black;
+    background-color: floralwhite;
     
     
 
