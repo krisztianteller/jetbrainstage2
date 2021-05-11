@@ -1,3 +1,24 @@
 html{
-    background: url("world.png");
+    background: url("world.png") center no-repeat;
+
+}
+
+#container{
+    background: lightblue;
+    border-radius: 25px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    
+    
+
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    
+    
+
 }
