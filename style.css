@@ -1,184 +1,3 @@
-/* body{
-    background: url("world.png") center no-repeat;
-
-}
-
-h1{
-    text-align: center;
-}
-.container{
-    border-radius: 10px;
-    height: 800px;
-    width: 550px;
-
-
-    
-
-    
-}
-.card1{
-    border-radius: 10px;
-    position: relative;
-    
-    
-  
-    
-    
-    
-
-}
-
-.card2{
-    border-radius: 10px;
-    position: relative;
-    
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    
-    align-items: center; */
- 
-   
-    
-    
-
-/* }
-.card3{
-    border-radius: 10px;
-    position: relative; */
-    /* position: relative; */
-    
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    
-    align-items: center; */
-    
-    
-    
-/* 
-}
-.card4{
-    border-radius: 10px;
-    position: relative; */
-    /* position: relative; */
-    
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center; */
-   
-    
-    
-    
-
-
-/* .card5{
-    border-radius: 10px;
-    position: relative; */
-    /* position: relative; */
-    
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    
-    
-    
-
-/* }
-.card6{
-    border-radius: 10px;
-    position: relative; */
-    /* position: relative; */
-    
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center; */
-
-    
-    
-    
-
-/* }
-.card7{
-    border-radius: 10px;
-    position: relative; */
-    /* position: relative; */
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    
-/*     
-    
-
-}
-.card8{
-    border-radius: 10px;
-    position: relative;
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    
-     */
-    
-
-/* }
-.card9{
-    border-radius: 10px;
-    position: relative;
-    /* text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center; */
-    
-     */
-    
-    
-
-/* }
-.front, .back{
-    width: 5%;
-    height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    
-
-} */
-/* 
-.front{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    font-family: 'Girassol', cursive;
-    color: black;
-    background-color: floralwhite;
-    z-index: 2;
-    
-    
-
-} */
-/* .back{
-    background-color: orange;
-    z-index: 1;
-}
-.card1:hover {
-
-    transform: rotateY(180deg);
-
-} */ 
-
 body{
     background: url("world.png") center no-repeat;
 
@@ -198,15 +17,25 @@ h1{
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    
 
 
 }
 
 #container:hover .card1{
     transform: rotateY(180deg);
+    
 
 }
+#container:hover .card2{
+    transform: rotateY(180deg);
 
+}
+#container:hover .card3{
+    transform: rotateY(180deg);
+
+}
+/* 
 .cell{
     padding: 10px;
     margin: 10px;
@@ -216,7 +45,7 @@ h1{
     font-family: 'Girassol', cursive;
     color: black;
     background-color: floralwhite;
-}
+} */
 
 
 .card1{
@@ -225,8 +54,31 @@ h1{
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
+  
+    
     
 }
+.card2{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+.card3{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+
 .front,
 .back{
     display: flex;
@@ -234,19 +86,83 @@ h1{
     align-items: center;
     position: absolute;
     border-radius: 10px;
+    
+}
+
+.front2,
+.back2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+}
+.front3,
+.back3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
 }
 .front{
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: floralwhite;
     z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+.front2{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+
+.front3{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
     backface-visibility: hidden;
 
 }
 .back{
     height: 100%;
     width: 100%;
-    background-color: blue;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+.back2{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+.back3{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
     z-index: 1;
     transform: rotateY(180deg);
 }
