@@ -9,8 +9,8 @@ h1{
 }
 #container{
     border-radius: 10px;
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 600px;
     text-align: center;
     display: flex;
     flex-flow: wrap;
@@ -21,31 +21,43 @@ h1{
 
 
 }
-
-#container:hover .card1{
+.card1:hover{
     transform: rotateY(180deg);
     
 
 }
-#container:hover .card2{
+.card2:hover{
     transform: rotateY(180deg);
 
 }
-#container:hover .card3{
+.card3:hover{
     transform: rotateY(180deg);
 
 }
-/* 
-.cell{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    width: 150px;
-    height: 150px;
-    font-family: 'Girassol', cursive;
-    color: black;
-    background-color: floralwhite;
-} */
+.card4:hover{
+    transform: rotateY(180deg);
+
+}
+.card5:hover{
+    transform: rotateY(180deg);
+
+}
+.card6:hover{
+    transform: rotateY(180deg);
+
+}
+.card7:hover{
+    transform: rotateY(180deg);
+
+}
+.card8:hover{
+    transform: rotateY(180deg);
+
+}
+.card9:hover{
+    transform: rotateY(180deg);
+
+}
 
 
 .card1{
@@ -78,6 +90,66 @@ h1{
     
     
 }
+.card4{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+.card5{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+.card6{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+.card7{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+.card8{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
+.card9{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+  
+    
+    
+}
 
 .front,
 .back{
@@ -100,6 +172,66 @@ h1{
 }
 .front3,
 .back3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.front4,
+.back4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.front5,
+.back5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.front6,
+.back6
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.front7,
+.back7
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.front8,
+.back8
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.front9,
+.back9
 {
     display: flex;
     justify-content: center;
@@ -145,12 +277,92 @@ h1{
     backface-visibility: hidden;
 
 }
+.front4{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+.front5{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+.front6{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+.front7{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+.front8{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
+.front9{
+    height: 100%;
+    width: 100%;
+    background-color: floralwhite;
+    z-index: 2;
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: hidden;
+
+}
 .back{
     height: 100%;
     width: 100%;
     background-color: orange;
     z-index: 1;
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+    
+    
+    
 }
 .back2{
     height: 100%;
@@ -158,6 +370,11 @@ h1{
     background-color: orange;
     z-index: 1;
     transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
 }
 .back3{
     height: 100%;
@@ -165,4 +382,81 @@ h1{
     background-color: orange;
     z-index: 1;
     transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+}
+.back4{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+}
+.back5{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+}
+.back6{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+}
+.back7{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+}
+.back8{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
+}
+.back9{
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    z-index: 1;
+    transform: rotateY(180deg);
+    -webkit-perspective: 0;
+    -webkit-backface-visibility: visible;
+    -webkit-transform: translate3d(0,0,0);
+    visibility:visible;
+    backface-visibility: visible;
 }
