@@ -1,4 +1,4 @@
-body{
+/* body{
     background: url("world.png") center no-repeat;
 
 }
@@ -6,24 +6,209 @@ body{
 h1{
     text-align: center;
 }
-#container{
+.container{
     border-radius: 10px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
+    height: 800px;
+    width: 550px;
+
+
+    
+
+    
+}
+.card1{
+    border-radius: 10px;
+    position: relative;
+    
+    
+  
     
     
     
 
 }
 
+.card2{
+    border-radius: 10px;
+    position: relative;
+    
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    
+    align-items: center; */
+ 
+   
+    
+    
+
+/* }
+.card3{
+    border-radius: 10px;
+    position: relative; */
+    /* position: relative; */
+    
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    
+    align-items: center; */
+    
+    
+    
+/* 
+}
+.card4{
+    border-radius: 10px;
+    position: relative; */
+    /* position: relative; */
+    
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; */
+   
+    
+    
+    
+
+
+/* .card5{
+    border-radius: 10px;
+    position: relative; */
+    /* position: relative; */
+    
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; */
+    
+    
+    
+
+/* }
+.card6{
+    border-radius: 10px;
+    position: relative; */
+    /* position: relative; */
+    
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; */
+
+    
+    
+    
+
+/* }
+.card7{
+    border-radius: 10px;
+    position: relative; */
+    /* position: relative; */
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; */
+    
+/*     
+    
+
+}
+.card8{
+    border-radius: 10px;
+    position: relative;
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; */
+    
+     */
+    
+
+/* }
+.card9{
+    border-radius: 10px;
+    position: relative;
+    /* text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center; */
+    
+     */
+    
+    
+
+/* }
+.front, .back{
+    width: 5%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+
+} */
+/* 
+.front{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Girassol', cursive;
+    color: black;
+    background-color: floralwhite;
+    z-index: 2;
+    
+    
+
+} */
+/* .back{
+    background-color: orange;
+    z-index: 1;
+}
+.card1:hover {
+
+    transform: rotateY(180deg);
+
+} */ 
+
+body{
+    background: url("world.png") center no-repeat;
+
+}
+
+h1{
+    font-family: Arial;
+    text-align: center;
+}
+#container{
+    border-radius: 10px;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+#container:hover .card1{
+    transform: rotateY(180deg);
+
+}
+
 .cell{
-    adding: 10px;
+    padding: 10px;
     margin: 10px;
     border-radius: 10px;
     width: 150px;
@@ -31,7 +216,37 @@ h1{
     font-family: 'Girassol', cursive;
     color: black;
     background-color: floralwhite;
-    
-    
+}
 
+
+.card1{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+    
+}
+.front,
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 10px;
+}
+.front{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    z-index: 2;
+    backface-visibility: hidden;
+
+}
+.back{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    z-index: 1;
+    transform: rotateY(180deg);
 }
