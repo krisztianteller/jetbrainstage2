@@ -19,11 +19,9 @@ h1{
     margin: auto;
     
 
-
 }
 .card1:hover{
     transform: rotateY(180deg);
-    
 
 }
 .card2:hover{
@@ -58,17 +56,12 @@ h1{
     transform: rotateY(180deg);
 
 }
-
-
 .card1{
     height: 150px;
     width: 150px;
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
-  
-    
-    
 }
 .card2{
     height: 150px;
@@ -76,9 +69,6 @@ h1{
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
-  
-    
-    
 }
 .card3{
     height: 150px;
@@ -86,8 +76,6 @@ h1{
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
-  
-    
     
 }
 .card4{
@@ -96,8 +84,6 @@ h1{
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
-  
-    
     
 }
 .card5{
@@ -107,8 +93,6 @@ h1{
     transition: all 1s linear;
     transform-style: preserve-3d;
   
-    
-    
 }
 .card6{
     height: 150px;
@@ -117,8 +101,6 @@ h1{
     transition: all 1s linear;
     transform-style: preserve-3d;
   
-    
-    
 }
 .card7{
     height: 150px;
@@ -126,9 +108,7 @@ h1{
     position: relative;
     transition: all 1s linear;
     transform-style: preserve-3d;
-  
-    
-    
+
 }
 .card8{
     height: 150px;
@@ -137,8 +117,6 @@ h1{
     transition: all 1s linear;
     transform-style: preserve-3d;
   
-    
-    
 }
 .card9{
     height: 150px;
@@ -147,8 +125,6 @@ h1{
     transition: all 1s linear;
     transform-style: preserve-3d;
   
-    
-    
 }
 
 .front,
@@ -354,12 +330,17 @@ h1{
     width: 100%;
     background-color: orange;
     z-index: 1;
-    transform: rotateY(360deg);
+    transform: rotateY(180deg);
     -webkit-perspective: 0;
     -webkit-backface-visibility: visible;
-    -webkit-transform: translate3d(0,0,0);
+    /* -webkit-transform: translate3d(0,0,0); */
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
     
     
     
@@ -375,6 +356,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back3{
     height: 100%;
@@ -387,6 +373,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back4{
     height: 100%;
@@ -399,6 +390,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back5{
     height: 100%;
@@ -411,6 +407,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back6{
     height: 100%;
@@ -423,6 +424,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back7{
     height: 100%;
@@ -435,6 +441,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back8{
     height: 100%;
@@ -447,6 +458,11 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
 .back9{
     height: 100%;
@@ -459,4 +475,9 @@ h1{
     -webkit-transform: translate3d(0,0,0);
     visibility:visible;
     backface-visibility: visible;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1); 
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1); 
+    transform: scale(-1, 1);
 }
